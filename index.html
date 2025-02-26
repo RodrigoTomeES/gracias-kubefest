@@ -10,8 +10,8 @@
       }
 
       html {
-        height: 100%;
-        width: 100%;
+        height: 100dvh;
+        width: 100dvw;
         display: grid;
         place-items: center;
       }
@@ -22,6 +22,7 @@
         font-variation-settings: "wght" var(--text-axis);
         font-size: 20vw;
         color: #202020;
+        margin: 0;
 
         text-align: center;
       }
@@ -29,7 +30,7 @@
   </head>
   <body>
     <p id="text">¡Gracias!</p>
-    <script type="module" src="script.js">
+    <script type="module">
       // Audio code from Ruth's Demo!! - https://codepen.io/Rumyra/pen/jomXeG
       console.clear;
       // create audio context and make sure it gets activated
